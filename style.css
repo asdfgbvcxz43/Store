@@ -35,6 +35,25 @@ left: 55px;
 font-size: 25px;
 color: #fff;
 }
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .name {
+    position: fixed;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    height: 7%;
+    color: rgb(255,255,255,.6);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+}
+.name h1 {
+color: #fff;
+font-size: 20px;
+text-align: center;
+}
 .top Img {
 width: 30px;
 height: 30px;
