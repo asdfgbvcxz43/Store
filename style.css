@@ -129,3 +129,39 @@ border-radius: 10px;
 background-color: #1C0B36;
 margin: 10px;
 }
+.apps {
+width: 85%;
+padding: 8px;
+border-radius: 15px;
+background: #EBEBEB;
+height: 45px;
+margin: 10px;
+}
+.apps img {
+float: left;
+width: 45px;
+border-radius: 23.3%;
+}
+.apps a {
+color: #ffffff;
+display: block;
+float: right;
+width: 60px;
+border-radius: 30px;
+padding-top: 7px;
+padding-bottom: 7px;
+background-color: #1F5FBF;
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+text-decoration: none;
+}
+.apps h1 {
+font-size: 17px;
+color: #000;
+text-align: justify;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-left: 60px;
+}
