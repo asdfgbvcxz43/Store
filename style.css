@@ -1,7 +1,7 @@
 body {
 font-family: helvetica;
-background-image: linear-gradient(to right, #be93c5, #7bc6cc);
-background-color: #be93c5;
+background-image: linear-gradient(to right, #ae02c9, #ff8708);
+background-color: #ae02c9;
 -webkit-touch-callout: none;
 user-select: none;
 -webkit-user-select: none;
@@ -62,7 +62,7 @@ text-align: center;
 }
 .name a {
 text-decoration: none;
-color: #ffffff;
+color: #d99b30;
 font-size: 40px;
 font-family: Framework7 Icons;
 -webkit-appearance: none;
@@ -96,18 +96,18 @@ src: url(https://appinstallerios.com/fonts/Framework7Icons-Regular.woff2);
   }
 }
 .nav a:hover {
-color: #1F5FBF;
+color: #8302a1;
 }
 .nav a {
 font-size: 45px;
-color: #EBEBEB;
+color: #8302a1;
 margin: 14.5px;
 }
 .pages {	
 width: 85%;
 padding: 8px;
 border-radius: 15px;
-background: #EBEBEB;
+background: #8302a1;
 height: 45px;
 margin: 10px;
 }
@@ -156,14 +156,14 @@ width: 120px;
 padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 10px;
-background-color: #1C0B36;
+background-color: #000000;
 margin: 10px;
 }
 .apps {
 width: 85%;
 padding: 8px;
 border-radius: 15px;
-background: #EBEBEB;
+background: #000000;
 height: 45px;
 margin: 10px;
 }
@@ -180,7 +180,7 @@ width: 60px;
 border-radius: 30px;
 padding-top: 7px;
 padding-bottom: 7px;
-background-color: #1F5FBF;
+background-color: #871fbf;
 font-size: 14px;
 font-weight: 700;
 text-align: center;
@@ -205,9 +205,9 @@ padding: 9px 17px 9px 37px;
 margin-bottom: 9px;
 margin: 10px;
 border-radius:20px;
-background-color: #EBEBEB;
+background-color: #262626;
 color: #000;
-border: 5px solid #EBEBEB;
+border: 5px solid #262626;
 }
 #myUL {
 /* Remove default list styling */
