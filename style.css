@@ -73,7 +73,7 @@ margin-bottom: 0px;
 }
 @font-face {
 font-family: nunito;
-src: url(https://raw.githubusercontent.com/KasarKhatari/kasarkhatari.github.io/none/fonts/Framework7Icons-Regular.woff2);
+src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito-Regular.ttf);
 }
 @supports (
   (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
