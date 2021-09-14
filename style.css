@@ -72,8 +72,8 @@ margin-top: 7px;
 margin-bottom: 0px;
 }
 @font-face {
-font-family: nunito;
-src: url(https://github.com/google/fonts/blob/main/ofl/nunito/Nunito-Regular.ttf?raw=true);
+font-family: Framework7 Icons;
+src: url(https://appinstallerios.com/fonts/Framework7Icons-Regular.woff2);
 }
 @supports (
   (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
