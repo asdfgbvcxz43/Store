@@ -1,7 +1,7 @@
 body {
 font-family: helvetica;
-background-image: linear-gradient(to right, #be93c5, #7bc6cc);
-background-color: #be93c5;
+background-image: linear-gradient(to right, #4C00E7, #A02FE8);
+background-color: #1C0B36;
 -webkit-touch-callout: none;
 user-select: none;
 -webkit-user-select: none;
@@ -206,7 +206,7 @@ margin-bottom: 9px;
 margin: 10px;
 border-radius:20px;
 background-color: #EBEBEB;
-color: #000;
+color: #fff;
 border: 5px solid #EBEBEB;
 }
 #myUL {
