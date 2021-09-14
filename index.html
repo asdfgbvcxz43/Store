@@ -1,309 +1,56 @@
-
 <!DOCTYPE html>
-<html class="theme-dark" lang="en">
-
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Kasar</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover minimal-ui standalone">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="KasarIcon.png"/>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="2196f3">
-<meta https-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-<title>Kasar IOS</title>
-<link rel="stylesheet" href="fonts/font-awesome.min.css">
-<link rel="stylesheet" href="css/framework7.bundle.css">
-<link rel="stylesheet" href="css/framework7.bundle.min.css">
-<link rel="stylesheet" href="css/app.css">
-<link rel="apple-touch-icon" href="img/icon.jpg">
-<link rel="icon" href="img/icon.jpg">
 </head>
-<body>
-<div id="app">
-<div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
-<div class="page page-home">
-<div class="navbar navbar-large navbar-transparent">
-<div class="navbar-bg">
-</div>
-<div class="navbar-inner">
-<div class="title sliding">Kasar IOS
-</div>
-                       <div class="right"><a onclick="location.reload();"><i class="f7-icons">arrow_clockwise_circle_fill</i></a></div>
-<div class="title-large">
-<div class="title-large-text">KasarIOS
-</div>
-</div>
-</div>
-</div>
-<div class="toolbar tabbar tabbar-labels toolbar-bottom">
-<div class="toolbar-inner">
-<a href="#tab1" class="tab-link tab-link-active">
-<i class="icon f7-icons if-not-md">bi bi-house-fill
-</i>
-<i class="icon material-icons md-only">bi bi-house-fill
-</i>
-<span class="tabbar-label">Home
-</span>
-</a>
-<a href="#tab2" class="tab-link">
-<i class="icon f7-icons if-not-md">rectangle_stack_fill
-</i>
-<i class="icon material-icons md-only">rectangle_stack_fill
-</i>
-<span class="tabbar-label">Apps
-</span>
-</a>
-<a href="#tab3" class="tab-link">
-<i class="icon f7-icons if-not-md">info_circle_fill
-</i>
-<i class="icon material-icons md-only">info_circle_fill
-</i>
-<span class="tabbar-label">Info
-</span>
-</a>
-</div>
-</div>
-<div class="tabs-animated-wrap">
-<div class="tabs">
-<div id="tab1" class="tab tab-active">
-<div class="page-content">
-<div class="block-title">Popular apps | زۆرترین داواکاری
-</div>
-<div class="list media-list">
-<ul class="listaus" id="names">
-<li class="name-item">
-<a onclick=location=("http://www.seeyou-ios.tk/8.html") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/unc0ver.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">unc0ver</div>
-</div>
-<div class="item-subtitle">V 6.1.2 Size: 40 MB</div>
+<a href="javascript:myFunction()">
+<div class="top">
+<img src="KasarIcon.png">
+<h1 class="ml12">Kasar</h1>
 </div>
 </a>
-</li><li class="name-item">
-<a onclick=location=("http://www.seeyou-ios.tk/2.html") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/video.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">Video Star++</div>
-</div>
-<div class="item-subtitle">V 8.3.2 Size: 97 MB</div>
-</div>
-</a>
-</li>
-</div>
-</a>
-</li>
-<div class="block-title">Fix Revok | چارەسەری ڕیڤۆک</div>
-<div style="padding:10px;" class="card" id="status">      <center><h5>!دامبەزاند بەڵام کار ناکات ؟</h5></center>
-          <p> ھەر کاتێک ئەپێکت دابەزاند و کاری نەکرد یان کراشی کرد ئەوە واتا لە لایەن ئەپڵەوە راگیراوە پێوستە نوێ بکرێتەوە ، ھەرکاتێ نوێ کرایەوە ئێمە لە سایت ئەپدەیت دەکەینەوە دەتوانی لە  <span style="color: #00BFFF;">تێلێگرام</span>   ئاگادار بیت </p>
-<hr>
-  <center><h5>سیدیا</h5></center>
- 
- <p><span style="color: #FF8000; font-size: 12px;">AppSync unified</span> ئەوانەی سیدیایان ھەیە دەتوانن لە  تویکی  ئینستال بکەن ھەر ئەپێکیان ویست لە سایت دایبگرن و بێ کێشە کار دەکات</p>
-<center><h5><span style="color: #00BFFF; font-size: 15px;">SeeYouIOS</span></h5></center>
-</div>
-</div>
-</div>
-<div id="tab2" class="tab">
-<div class="page-content">
- <form class="searchbar no-hairline" onsubmit="return false;">
-<div class="searchbar-inner">
-<div class="searchbar-input-wrap">
-<input type="search" id="filterInput" placeholder="Search">
-<i class="searchbar-icon">
-</i>
-<span class="input-clear-button">
-</span>
-</div>
-<span class="searchbar-disable-button">Cancel
-</span>
-</div>
-</form>
-<div class="block-title"></div>
-<div class="list media-list">
-<ul class="listaus" id="names">
-<li class="name-item">
-<a onclick=location=("http://www.seeyou-ios.tk/8.html") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/unc0ver.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">unc0ver</div>
-</div>
-<div class="item-subtitle">V 6.1.2 Size: 40 MB</div>
-</div>
-</a>
-</li><li class="name-item">
-<a onclick=location=("#") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/odyssey.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">Odyssey</div>
-</div>
-<div class="item-subtitle">V 1.3.3 Size: 21.63 MB</div>
-</div>
-</a>
-</li><li class="name-item">
-<a onclick=location=("http://www.seeyou-ios.tk/4.html") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/pubg.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">Pubg Hack</div>
-</div>
-<div class="item-subtitle">V last Size: 2.4 GB</div>
-</div>
-</a>
-</li><li class="name-item">
-<a onclick=location=("http://www.seeyou-ios.tk/5.html") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="https://play-lh.googleusercontent.com/bPz1guJ6FHF3oIOEy3KqwpaDDKO-hLRaZoyzmM8bLFLN8fWm6L0_EuUnkwv9iqPo3Ag" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">8 BallPool</div>
-</div>
-<div class="item-subtitle">V 5.2 Size: 83 MB</div>
-</div>
-</a>
-</li><li class="name-item">
-<a onclick=location=("http://www.seeyou-ios.tk/2.html") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/video.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">Video Star++</div>
-</div>
-<div class="item-subtitle">V 8.3.2 Size: 97 MB</div>
-</div>
-</a>
-</li><li class="name-item">
-<a onclick=location=("http://www.seeyou-ios.tk/3.html") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/app.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">App Cake</div>
-</div>
-<div class="item-subtitle">V 282.0 Size: 150 MB</div>
-</div>
-</a>
-</li><li class="name-item">
-<a onclick=location=("#") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="apps/kinemaster.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">Kinemaster</div>
-</div>
-<div class="item-subtitle">V 4.14.3 Size: 75 MB</div>
-</div>
-</a>
-</li> <br>
 <br>
 <br>
 <br>
-</ul>
+<center>
+<div class="card-devs">
+<img src="https://logosmarken.com/wp-content/uploads/2020/04/YouTube-Logo.png">
+<h2></h2>
+<p>Subscribe us YouTube</p>
+<a href="https://youtube.com/channel/UCR-RY4xgL0H0ra-kVkM-ejw">Subscribe</a>
 </div>
+<div class="card-devs">
+<img src="KasarIcon.png">
+<h2>Kasar</h2>
+<p>Website Developer, CEO, Owner</p>
+<a href="https://twitter.com/kasar0ver">Follow</a>
 </div>
+<div class="card-devs">
+<img src="https://archive.org/download/IOSHACKING.png/IOSHACKING.png.JPG">
+<h2>iOS HACKING</h2>
+<p>Join us on Telegram</p>
+<a href="https://t.me/iOSHacking">Join</a>
 </div>
-<div id="tab3" class="tab">
-<div class="page-content">
-<div class="block-title">CONTACT US:
-</div>
-<div class="list media-list">
-<ul class="listaus" id="names">
-<li class="name-item">
-<a onclick=location=("https://t.me/SeeYouIOS") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="img/telegram.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">Telegram Channel</div>
-</div>
-<div class="item-subtitle">@SeeYouIOS</div>
-</div>
-</a>
-</li><li class="name-item">
-<a onclick=location=("https://t.me/SeeYouIOSchat") class="item-link item-content">
-<div class="item-media"><img style="border-radius:30%;background-color:#000;height:50px;" src="img/telegram.png" width="50" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title">Telegram Group</div>
-</div>
-<div class="item-subtitle">@SeeYouIOSchat</div>
-</div>
-</a>
-</li>
-</div>
-</a>
-</li>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+</center>
+<br>
+<br>
+<br>
+<br>
+<div class="nav">	
+<a href="Sections" class="tab">rectangle_stack_fill</a>
+<a href="https://kasarkhatari.github.io/" class="tab">house_fill</a>
+<a href="Search" class="tab">search_fill</a>
 </div>
 <script>
-    // Get input element
-    let filterInput = document.getElementById('filterInput');
-    // Add event listener
-    filterInput.addEventListener('keyup', filterNames);
-    function filterNames(){
-      // Get value of input
-      let filterValue = document.getElementById('filterInput').value.toUpperCase();
-      // Get names ul
-      let ul = document.getElementById('names');
-      // Get lis from ul
-      let li = ul.querySelectorAll('li.name-item');
-      // Loop through collection-item lis
-      for(let i = 0;i < li.length;i++){
-        let a = li[i].getElementsByTagName('a')[0];
-        // If matched
-        if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
-          li[i].style.display = '';
-        }
-        else {
-          li[i].style.display = 'none';
-        }
-      }
-    }
-  </script>
-<script src="js/framework7.bundle.min.js">
-  </script>
-<script src="js/routes.js">
-  </script>
-<script src="js/app.js">
-  </script>
-<script>
-    function timeSince(ts){
-        now = new Date();
-        ts = new Date(ts*1000);
-        var delta = now.getTime() - ts.getTime();
-
-        delta = delta/1000; //us to s
-
-        var ps, pm, ph, pd, min, hou, sec, days;
-
-        if(delta<=59){
-            ps = (delta>1) ? "s": "";
-            return Math.ceil(delta)+" second"+ps
-        }
-
-        if(delta>=60 && delta<=3599){
-            min = Math.ceil(Math.floor(delta/60));
-            pm = (min>1) ? "s": "";
-            ps = (sec>1) ? "s": "";
-            return min+" minute"+pm;
-        }
-        if(delta>=3598 && delta<=86400){
-            hour = Math.ceil(Math.floor(delta/3600));
-            pm = (hour>1) ? "s": "";
-            ps = (sec>1) ? "s": "";
-            return hour+" hour"+pm;
-        }
-
-    }
-  </script>
-<body onload="setTime()">
-<script defer src="beacon.min.js" data-cf-beacon='{"rayId":"65aa9e6bfe8f4aa4","version":"2021.5.2","r":1,"token":"ddf4794948754c89aa01cbda856c563b","si":10}'></script>
-</body>
-</body>
-
-
+function myFunction() {
+  alert("Welcome made with ♡ Kasar Enjoy");
+}
+</script>
 </html>
