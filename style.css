@@ -1,6 +1,6 @@
 body {
 font-family: helvetica;
-background-image: linear-gradient(to right, #4C00E7, #4c00e7);
+background-image: linear-gradient(to right, #4C00E7, #A02FE8);
 background-color: #1C0B36;
 -webkit-touch-callout: none;
 user-select: none;
@@ -96,7 +96,7 @@ src: url(https://appinstallerios.com/fonts/Framework7Icons-Regular.woff2);
   }
 }
 .nav a:hover {
-color: #1F5FBF;
+color: #1C0B36;
 }
 .nav a {
 font-size: 45px;
