@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.kasar.8ballpool</string>
+				<string>com.kasar.NoLimit</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string> Kasar - 8 Bal lPool</string>
+				<string> Kasar - NoLimit</string>
 			</dict>
 		</dict>
 	</array>
