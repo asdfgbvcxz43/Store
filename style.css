@@ -163,7 +163,7 @@ margin: 10px;
 width: 85%;
 padding: 8px;
 border-radius: 15px;
-background: #1C0B36;
+background: #EBEBEB;
 height: 45px;
 margin: 10px;
 }
@@ -205,9 +205,9 @@ padding: 9px 17px 9px 37px;
 margin-bottom: 9px;
 margin: 10px;
 border-radius:20px;
-background-color: #1C0B36;
+background-color: #EBEBEB;
 color: #fff;
-border: 5px solid #1C0B36;
+border: 5px solid #EBEBEB;
 }
 #myUL {
 /* Remove default list styling */
