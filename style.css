@@ -100,7 +100,7 @@ color: #1C0B36;
 }
 .nav a {
 font-size: 45px;
-color: #EBEBEB;
+color: #1C0B36;
 margin: 14.5px;
 }
 .pages {	
@@ -205,9 +205,9 @@ padding: 9px 17px 9px 37px;
 margin-bottom: 9px;
 margin: 10px;
 border-radius:20px;
-background-color: rgba(255,255,255,.1);
+background-color: #EBEBEB;
 color: #fff;
-border: none;
+border: 5px solid #EBEBEB;
 }
 #myUL {
 /* Remove default list styling */
