@@ -1,1 +1,1 @@
-# kasar-store.xyz
+# kasarkhatari.github.io
