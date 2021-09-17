@@ -100,7 +100,7 @@ color: #1C0B36;
 }
 .nav a {
 font-size: 45px;
-color: #1C0B36;
+color: #EBEBEB;
 margin: 14.5px;
 }
 .pages {	
@@ -163,7 +163,7 @@ margin: 10px;
 width: 85%;
 padding: 8px;
 border-radius: 15px;
-background: #EBEBEB;
+background: #1C0B36;
 height: 45px;
 margin: 10px;
 }
@@ -205,9 +205,9 @@ padding: 9px 17px 9px 37px;
 margin-bottom: 9px;
 margin: 10px;
 border-radius:20px;
-background-color: #EBEBEB;
+background-color: #1C0B36;
 color: #fff;
-border: 5px solid #EBEBEB;
+border: 5px solid #1C0B36;
 }
 #myUL {
 /* Remove default list styling */
