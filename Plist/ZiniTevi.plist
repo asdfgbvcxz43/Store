@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://icons.appinstallerios.com/AppInstalleriOSIcon.png</string>
+					<string>https://kasarkhatari.github.io/Kasaricon.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://icons.appinstallerios.com/AppInstalleriOSIcon.png</string>
+					<string>https://kasarkhatari.github.io/Kasaricon.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -35,7 +35,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>kasar - ZiniTevi</string>
+				<string>Kasar - ZiniTevi</string>
 			</dict>
 		</dict>
 	</array>
