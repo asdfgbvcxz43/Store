@@ -63,7 +63,7 @@ text-align: center;
 .name a {
 text-decoration: none;
 color: #ffffff;
-font-size: 40px;
+font-size: 39px;
 font-family: Framework7 Icons;
 -webkit-appearance: none;
 color: #ffffff;
@@ -113,7 +113,7 @@ margin: 10px;
 }
 .pages img {
 float: left;
-width: 45px;
+width: 39px;
 border-radius: 23.3%;
 }
 .pages h1 {
